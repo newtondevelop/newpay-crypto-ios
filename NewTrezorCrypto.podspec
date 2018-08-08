@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
     sed -i '' -e 's:ed25519-donna/::g' ./**/*.c
     sed -i '' -e 's:ed25519-donna/::g' ./**/*.h
   CMD
-  s.module_map = 'TrezorCrypto.modulemap'
+  s.module_map = 'NewTrezorCrypto.modulemap'
   search_paths = [
     '"${PODS_ROOT}/trezor-crypto"',
     '"${PODS_ROOT}/trezor-crypto/aes"',
