@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TrezorCrypto'
-  s.version          = '0.0.6'
+  s.version          = '0.1.0'
   s.summary          = 'Heavily optimized cryptography algorithms for iOS.'
 
   s.homepage         = 'https://gitlab.newtonproject.org/xiawu/newton-trezor-crypto-ios'
