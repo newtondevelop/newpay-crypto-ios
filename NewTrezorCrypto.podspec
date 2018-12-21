@@ -30,6 +30,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 
     'NewTrezorCrypto.h',
+    'util/SecRandom.m',
     'trezor-crypto/*.{c,h,table}',
     'trezor-crypto/aes/*.{c,h}',
     'trezor-crypto/chacha20poly1305/*.{c,h}',
