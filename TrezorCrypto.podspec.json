@@ -23,7 +23,7 @@
   "module_map": "TrezorCrypto.modulemap",
   "pod_target_xcconfig": {
     "SWIFT_INCLUDE_PATHS": "${PODS_ROOT}",
-    "OTHER_CFLAGS": "-O3 -std=c99",
+    "OTHER_CFLAGS": "-O3 -std=c99 -DRAND_PLATFORM_INDEPENDENT",
     "HEADER_SEARCH_PATHS": "\"${PODS_ROOT}/trezor-crypto\" \"${PODS_ROOT}/trezor-crypto/aes\" \"${PODS_ROOT}/trezor-crypto/chacha20poly1305\" \"${PODS_ROOT}/trezor-crypto/ed25519-donna\""
   },
   "source_files": [

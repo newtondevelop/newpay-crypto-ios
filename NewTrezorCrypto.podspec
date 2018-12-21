@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   ]
   s.pod_target_xcconfig = {
       'SWIFT_INCLUDE_PATHS' => '${PODS_ROOT}',
-      'OTHER_CFLAGS' => '-O3 -std=c99',
+      'OTHER_CFLAGS' => '-O3 -std=c99 -DRAND_PLATFORM_INDEPENDENT',
       'HEADER_SEARCH_PATHS' => search_paths.join(' ')
   }
 
