@@ -4,8 +4,8 @@ Pod::Spec.new do |s|
   s.summary          = 'Heavily optimized cryptography algorithms for iOS.'
 
   s.homepage         = 'https://gitlab.newtonproject.org/xiawu/newton-trezor-crypto-ios'
-  s.license          = { type: 'MIT', file: 'trezor-crypto/LICENSE' }
-  s.authors          = { 'Alejandro Isaza' => 'al@isaza.ca' }
+  s.license          = { type: 'GPLv3', file: 'LICENSE' }
+  s.authors          = { 'newtonproject' => 'newton-app@newtonproject.org' }
   s.source           = { git: 'git@gitlab.newtonproject.org:xiawu/newton-trezor-crypto-ios.git', tag: s.version, submodules: true }
   
   s.ios.deployment_target = '9.0'
