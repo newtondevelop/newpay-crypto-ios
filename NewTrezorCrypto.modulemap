@@ -1,6 +1,0 @@
-framework module NewTrezorCrypto {
-  umbrella header "NewTrezorCrypto.h"
-
-  export *
-  module * { export * }
-}

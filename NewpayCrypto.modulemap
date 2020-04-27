@@ -1,0 +1,6 @@
+framework module NewpayCrypto {
+  umbrella header "NewpayCrypto.h"
+
+  export *
+  module * { export * }
+}
