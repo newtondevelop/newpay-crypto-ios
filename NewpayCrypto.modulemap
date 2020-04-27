@@ -1,5 +1,5 @@
-framework module NewTrezorCrypto {
-  umbrella header "NewTrezorCrypto.h"
+framework module NewpayCrypto {
+  umbrella header "NewpayCrypto.h"
 
   export *
   module * { export * }
