@@ -14,4 +14,4 @@ pod 'NewTrezorCrypto', :git=>'', :branch=>'master'
 
 ## License
 
-NewPay Trezor Crypto is available under the GNU GPL. See the [LICENSE]() file for more info.
+NewPay Trezor Crypto is available under the GNU GPL. See the [LICENSE](LICENSE) file for more info.
