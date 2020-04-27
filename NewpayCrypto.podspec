@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/newtondevelop/newpay-crypto-ios'
   s.license          = { type: 'GPLv3', file: 'LICENSE' }
   s.authors          = { 'newtonproject' => 'newton-app@newtonproject.org' }
-  s.source           = { git: 'https://github.com/yheng2/newpay-crypto-ios.git', tag: s.version, submodules: true }
+  s.source           = { git: 'https://github.com/newtondevelop/newpay-crypto-ios.git', tag: s.version, submodules: true }
   
   s.ios.deployment_target = '9.0'
   s.osx.deployment_target = '10.10'
