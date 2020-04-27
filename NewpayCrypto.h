@@ -10,8 +10,8 @@
 #endif
 #endif
 
-FOUNDATION_EXPORT double TrezorCryptoVersionNumber;
-FOUNDATION_EXPORT const unsigned char TrezorCryptoVersionString[];
+FOUNDATION_EXPORT double NewpayCryptoVersionNumber;
+FOUNDATION_EXPORT const unsigned char NewpayCryptoVersionString[];
 
 #include "aes.h"
 #include "chacha20poly1305.h"
