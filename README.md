@@ -1,4 +1,4 @@
-# Newpay Crypto iOS
+# NewPay Crypto iOS
 
 [![License](https://img.shields.io/badge/license-GPL3-green.svg?style=flat)]()
 
